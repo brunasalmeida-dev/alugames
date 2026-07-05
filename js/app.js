@@ -1,5 +1,5 @@
-function alterarStatus(game) {
-    let jogo = document.getElementById(`game-${game}`);
+function alterarStatus(ID) {
+    let jogo = document.getElementById(`game-${ID}`);
     let botao = jogo.querySelector('.dashboard__item__button');
     let imagem = jogo.querySelector('.dashboard__item__img');
     
